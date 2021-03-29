@@ -9,7 +9,7 @@ Repository for storing and documenting Grimoirelab's tasks for GSOC 2021, under 
  
 The proof is right here. 🙂
  
-### ✅ microtask-1
+### ✔️: microtask-1
 
 > Set up a dev environment to work on GrimoireLab. 
  
