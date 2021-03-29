@@ -1,16 +1,11 @@
 # grimoirelab-microtasks
-Repository for storing and documenting Grimoirelab's tasks for GSOC 2021, under CHAOSS
+Repository for storing and documenting Grimoirelab's microtasks for GSOC 2021, under CHAOSS
 
 ## Micro-tasks
-
-### ✔️: microtask-0
+ 
+### ✔️: microtask-0 & microtask-1
 
 > Download PyCharm and get familiar with it.
- 
-The proof is right here. 🙂
- 
-### ✔️: microtask-1
-
 > Set up a dev environment to work on GrimoireLab. 
  
 You can find the detailed steps here.
