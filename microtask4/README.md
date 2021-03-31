@@ -122,3 +122,27 @@ And I got the following results;
 
 ![image](https://user-images.githubusercontent.com/45284829/113221334-bc702c00-927c-11eb-8eb7-39f8468d498b.png)
 
+### Running tests
+There are unit tests in SortingHat for both frontend and backend.
+
+#### Backend Test Suite
+
+`$ ./manage.py test --settings=config.settings.testing`
+
+gives the result below;
+
+![image](https://user-images.githubusercontent.com/45284829/113223802-e7a94a00-9281-11eb-92dd-c71b5f134e63.png)
+
+
+#### Frontend Test Suite
+
+```
+$ cd ui/
+$ yarn test:unit -u
+```
+
+gives the result below;
+
+![image](https://user-images.githubusercontent.com/45284829/113223199-85037e80-9280-11eb-87b0-a54782171bfc.png)
+
+
