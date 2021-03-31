@@ -33,14 +33,14 @@ $ git checkout muggle
 
 [Poetry](https://python-poetry.org/docs/) was used for managing the project. I installed Poetry using the command below;
 
-```curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -```
+```$ curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3 -```
 
 ##### mysql_config
 
 `mysql_config` is part of both `libmysqlclient-dev` and `libmariadbclient-dev` packages. 
 Since I'm using MySQL database server, I installed the MySQL-specific package using the command below;
 
-```sudo apt install libmysqlclient-dev```
+```$ sudo apt install libmysqlclient-dev```
 
 #### Installation and Configuration
 
@@ -76,3 +76,41 @@ Below are the final results;
 ![image](https://user-images.githubusercontent.com/45284829/113215123-541c4d00-9272-11eb-9fba-007d326b0e60.png)
 
 ![image](https://user-images.githubusercontent.com/45284829/113215523-defd4780-9272-11eb-8550-1ce79a2693ce.png)
+
+### Frontend
+
+#### Requirements
+
+##### yarn
+
+To compile and run the frontend, `yarn` is to be installed first. 
+And it can only be installed with `npm` (NodeJS Package Manager).
+Since I already have `npm` installed, I ran the command below to install `yarn`;
+
+`sudo npm install -g yarn`
+
+#### Installation and Configuration
+
+I installed the dependencies using;
+
+```
+$ cd ui/
+
+$ yarn install
+```
+
+**Note:** I encountered the error below while running the above code;
+
+```
+pkg_resources.DistributionNotFound: The 'gyp==0.1' distribution was not found and is required by the application
+```
+
+which I solved by following [this guide](https://github.com/nodejs/node-gyp/issues/2273) 
+and running the commands below;
+
+```
+$ sudo npm install --global npm@latest
+
+$ sudo npm install --global node-gyp@latest
+
+$ sudo npm config set node_gyp $(npm prefix -g)/lib/node_modules/node-gyp/bin/node-gyp.js
