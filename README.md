@@ -28,4 +28,10 @@ The answers are stored [here](https://github.com/SteveKola/grimoirelab-microtask
 
 > Set up the developer environment of SortingHat ([muggle branch](https://github.com/chaoss/grimoirelab-sortinghat/tree/muggle)).
  
-The answers are stored [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask4).
+The detailed steps are outlined [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask4).
+
+### ✔️: microtask-5
+
+> Create a sample profile with different identities and enrollments using the SortingHat UI.
+> 
+The results [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask5).
