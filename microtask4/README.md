@@ -20,8 +20,8 @@ The muggle branch is the developing branch of SortingHat.
 I cloned the repository and changed to `muggle` branch, using the following
 commands;
 
-```$ git clone https://github.com/chaoss/grimoirelab-sortinghat
-
+```
+$ git clone https://github.com/chaoss/grimoirelab-sortinghat
 $ git checkout muggle
 ```
 
@@ -95,7 +95,6 @@ I installed the dependencies using;
 
 ```
 $ cd ui/
-
 $ yarn install
 ```
 
@@ -110,7 +109,16 @@ and running the commands below;
 
 ```
 $ sudo npm install --global npm@latest
-
 $ sudo npm install --global node-gyp@latest
-
 $ sudo npm config set node_gyp $(npm prefix -g)/lib/node_modules/node-gyp/bin/node-gyp.js
+```
+#### Running the frontend
+
+I ran the SortingHat frontend Vue app using;
+
+`$ yarn serve`
+
+And I got the following results;
+
+![image](https://user-images.githubusercontent.com/45284829/113221334-bc702c00-927c-11eb-8eb7-39f8468d498b.png)
+
