@@ -63,7 +63,7 @@ Then I run the following line,
 
 `$ docker-compose up -d`
 
-to get ElasticSearch, Kibiter and MariaDB running on m system.
+to get ElasticSearch, Kibiter and MariaDB running on my machine.
 
 ### Setting up the repositories locally
 
@@ -86,19 +86,19 @@ I forked and cloned all the Grimoirelab's components repositories into a target 
 - [Manuscripts](https://github.com/chaoss/grimoirelab-manuscripts)
 
 I also had to set the original repo as the upstream branch, and my forked repo as the remote branch. 
-I did this using an [automation script](https://gist.github.com/vchrombie/4403193198cd79e7ee0079259311f6e8), written by @vchrombie.
+I did this using an [automation script](https://gist.github.com/vchrombie/4403193198cd79e7ee0079259311f6e8), written by (@vchrombie)[https://github.com/vchrombie].
 
 To use the script, I ran this on my terminal after downloading the script;
 
 ```$ python3 glab-dev-env-setup.py --create --token xxxx --source sources```
 
-where **token** is my Github Personal Access Token which ****must*** be granted access to create/delete repos. 
-And **sources** is the target folder to store the cloned repositories.
+where `token` is my Github Personal Access Token which **must** be granted access to create/delete repos. 
+And `sources` is the target folder to store the cloned repositories.
 
 ### Setting up Pycharm
 
 After downloading Pycharm, as per microtask-1, I created a project in the grimoirelab-sirmordred directory. 
-PyCharm automatically created a virtual env, where I installed the dependencies listed in each (grimoirelab's components) requirements.txt, 
+PyCharm automatically created a virtual environment, where I installed the dependencies listed in each (grimoirelab's components) requirements.txt, 
 **excluding** the ones concerning the grimoirelab components.
 
 To install the dependencies, you I clicked on ```File -> Settings -> Project -> Project Interpreter```, 
