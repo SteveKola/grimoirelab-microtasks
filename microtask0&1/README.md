@@ -11,6 +11,60 @@ I downloaded Pycharm from the [official site](https://www.jetbrains.com/pycharm/
 **Note:** Everything I did here was done by following 
 [this guide](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/Getting-Started.md#getting-started-).
 
+### Getting the Containers
+
+It was required to install ElasticSearch (6.8.6), Kibiter (6.8.6) and a MySQL/MariaDB database (5.7.24/10.0). 
+
+This was done using [docker-compose without SearchGuard](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/Getting-Started.md#getting-the-containers-). 
+Without SearchGuard means that access to ElasticSearch and Kibiter won't require credentials.
+
+Save the below configurations in a docker-compose.yml file,
+
+```
+version: '2.2'
+
+services:
+    elasticsearch:
+      image: docker.elastic.co/elasticsearch/elasticsearch-oss:6.8.6
+      command: elasticsearch -Enetwork.bind_host=0.0.0.0 -Ehttp.max_content_length=2000mb
+      ports:
+        - 9200:9200
+      environment:
+        - ES_JAVA_OPTS=-Xms2g -Xmx2g
+        - ANONYMOUS_USER=true
+
+    kibiter:
+      restart: on-failure:5
+      image: bitergia/kibiter:community-v6.8.6-3
+      environment:
+        - PROJECT_NAME=Demo
+        - NODE_OPTIONS=--max-old-space-size=1000
+        - ELASTICSEARCH_URL=http://elasticsearch:9200
+      links:
+        - elasticsearch
+      ports:
+        - 5601:5601
+
+    mariadb:
+      restart: on-failure:5
+      image: mariadb:10.0
+      expose:
+        - "3306"
+      ports:
+        - "3306:3306"
+      environment:
+        - MYSQL_ROOT_PASSWORD=
+        - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+        - MYSQL_DATABASE=test_sh
+      command: --wait_timeout=2592000 --interactive_timeout=2592000 --max_connections=300
+```
+
+Then I run the following line,
+
+$ docker-compose up -d
+
+to get ElasticSearch, Kibiter and MariaDB running on m system.
+
 ### Setting up the repositories locally
 
 To setup the dev environment for Grimoirelab, 
