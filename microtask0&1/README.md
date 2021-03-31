@@ -18,7 +18,7 @@ It was required to install ElasticSearch (6.8.6), Kibiter (6.8.6) and a MySQL/Ma
 This was done using [docker-compose without SearchGuard](https://github.com/chaoss/grimoirelab-sirmordred/blob/master/Getting-Started.md#getting-the-containers-). 
 Without SearchGuard means that access to ElasticSearch and Kibiter won't require credentials.
 
-Save the below configurations in a docker-compose.yml file,
+I saved the below configurations in a docker-compose.yml file,
 
 ```
 version: '2.2'
@@ -61,7 +61,7 @@ services:
 
 Then I run the following line,
 
-$ docker-compose up -d
+`$ docker-compose up -d`
 
 to get ElasticSearch, Kibiter and MariaDB running on m system.
 
