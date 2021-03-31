@@ -52,7 +52,7 @@ The above command also created a virtual environment, which activated using;
 
 ```$ poetry shell```
 
-Afterwards, I did the schema migrations and created a superuser:
+Afterwards, I applied the schema migrations and created a superuser:
 
 ```
 $ ./manage.py makemigrations --settings=config.settings.devel
