@@ -6,9 +6,10 @@ Repository for storing and documenting Grimoirelab's microtasks for GSOC 2021, u
 ### ✔️: microtask-0 & microtask-1
 
 > Download PyCharm and get familiar with it.
+>
 > Set up a dev environment to work on GrimoireLab. 
  
-You can find the detailed steps here.
+You can find the detailed steps [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask0&1).
 
 ### ✔️: microtask-2
 
