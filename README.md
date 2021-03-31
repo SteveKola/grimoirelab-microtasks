@@ -15,4 +15,4 @@ You can find the detailed steps [here](https://github.com/SteveKola/grimoirelab-
 
 > Execute micro-mordred to collect, enrich and visualize data from Git repositories.
  
-The detailed steps are right here.
+The detailed steps are right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask2).
