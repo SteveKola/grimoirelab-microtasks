@@ -34,4 +34,4 @@ The detailed steps are outlined [here](https://github.com/SteveKola/grimoirelab-
 
 > Create a sample profile with different identities and enrollments using the SortingHat UI.
 > 
-The results [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask5).
+The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask5).
