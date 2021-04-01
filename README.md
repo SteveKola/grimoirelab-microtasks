@@ -32,7 +32,7 @@ The detailed steps are outlined [here](https://github.com/SteveKola/grimoirelab-
 
 ### ✔️: microtask-5
 
-> Create a sample profile with different identities and enrollments using the SortingHat UI.
+> CCreate a sample profile with different identities and enrollments using the SortingHat UI.reate a sample profile with different identities and enrollments using the SortingHat UI.
 > 
 The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask5). 😉
 
@@ -40,4 +40,4 @@ The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tr
 
 > Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.
 > 
-The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6)
+The query and results are shown right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6)
