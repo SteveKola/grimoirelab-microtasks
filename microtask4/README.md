@@ -121,6 +121,7 @@ I ran the SortingHat frontend Vue app using;
 And I got the following results;
 
 ![image](https://user-images.githubusercontent.com/45284829/113221334-bc702c00-927c-11eb-8eb7-39f8468d498b.png)
+![image](https://user-images.githubusercontent.com/45284829/113299821-2fb58480-92f5-11eb-9cf3-9cdb15d731b3.png)
 
 ### Running tests
 There are unit tests in SortingHat for both frontend and backend.
