@@ -40,7 +40,7 @@ The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tr
 
 > Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.
 > 
-The query and results are shown right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6)
+The query and results are shown right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6).
 
 ### ✔️: microtask-8
 
