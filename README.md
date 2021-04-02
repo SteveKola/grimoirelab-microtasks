@@ -41,3 +41,9 @@ The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tr
 > Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.
 > 
 The query and results are shown right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6)
+
+### ✔️: microtask-8
+
+> Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.Improve the visualization of the `individualCards` component. You need not send a PR, please update the work in your personal fork.
+> 
+A snip of the new design is [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask8), alongside the commit.
