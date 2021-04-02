@@ -52,4 +52,4 @@ A snip of the new design is [here](https://github.com/SteveKola/grimoirelab-micr
 
 > Submit at least a PR to one of the GrimoireLab repositories to fix an issue, improve the documentation, etc.
 > 
-The whole list is [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask10)
+The whole list is [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask10).
