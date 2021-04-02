@@ -47,4 +47,4 @@
 
 ### The output of the query is as shown below;
 
-![image](https://user-images.githubusercontent.com/45284829/113328087-b1b4a600-9313-11eb-9561-cccbf4ba910c.png)
+![](https://github.com/SteveKola/grimoirelab-microtasks/blob/main/microtask6/proof.gif)
