@@ -18,7 +18,7 @@ Here is the final result after all the data has been uploaded onto the database;
 
 ### Troubleshooting:
 
-while loading the data into the SortingHat database using GraphQL, I came across this <403> error;
+While loading the data into the SortingHat database using GraphQL, I came across this <403> error;
 
 ![image](https://user-images.githubusercontent.com/45284829/114392909-51362c00-9b91-11eb-9e4f-9c2d68fd3ab3.png)
 
