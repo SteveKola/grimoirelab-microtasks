@@ -2,7 +2,7 @@
 
 > Submit at least a PR to one of the GrimoireLab repositories to fix an issue, improve the documentation, etc.
 > 
-I have listed the contributions to Grimoirelab's components
+I have listed the contributions to Grimoirelab's components.
 
 ##### [chaoss/grimoirelab-elk](https://github.com/chaoss/grimoirelab-elk)
 
