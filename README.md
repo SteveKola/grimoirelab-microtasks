@@ -48,11 +48,19 @@ The query and results are shown right [here](https://github.com/SteveKola/grimoi
 > 
 The script and the results are
 [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask7)
+
 ### ✔️: microtask-8
 
 > Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.Improve the visualization of the `individualCards` component. 
 > 
 A snip of the new design is [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask8), alongside the commit.
+
+### ✔️: microtask-9
+
+> Submit a PR to any of the GrimoireLab components to increase the test coverage of one or more files of the source code.
+> 
+
+Check [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask9).
 
 ### ✔️: microtask-10
 
