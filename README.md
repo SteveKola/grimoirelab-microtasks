@@ -15,7 +15,7 @@ You can find the detailed steps [here](https://github.com/SteveKola/grimoirelab-
 
 > Execute micro-mordred to collect, enrich and visualize data from Git repositories.
  
-The detailed steps are right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask2).
+The detailed steps and troubleshooting are right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask2).
 
 ### ✔️: microtask-3
 
@@ -42,6 +42,12 @@ The proof is right [here](https://github.com/SteveKola/grimoirelab-microtasks/tr
 > 
 The query and results are shown right [here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask6).
 
+### ✔️: microtask-7
+
+> Create a script that can parse the gitdm developer affiliation files and load the data in a SortingHat database using GraphQL.
+> 
+The script and the results are
+[here](https://github.com/SteveKola/grimoirelab-microtasks/tree/main/microtask7)
 ### ✔️: microtask-8
 
 > Using the SortingHat GraphQL Console, create a query that fetches the data (identities, enrollments) of an individual profile.Improve the visualization of the `individualCards` component. 
